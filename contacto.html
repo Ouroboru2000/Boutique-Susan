@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas-sugerencias - Susan</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+<body>
+    <!-- CABEZERA -->
+<header class="main-header">
+    <div class="container container--flex">
+      <div class="main-header__container">
+        <h1 class="main-header__title">Boutique Susan</h1>
+        <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="inicio.html" class="menu__link">Inicio</a></li>
+            <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"><a href="tienda.html" class="menu__link">Tienda</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__container">
+        <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+        <a href="" class="carrito main-header__btn">Tu carrito <i class="fas fa-shopping-cart"></i></a>
+        <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+      </div>
+    </div>
+  </header>
+
+
+<!-- CONSULTAS Y SUGERENCIAS -->
+  <div class="caja0"></div>
+  
+  <div class="wrapper institutional us-whatisit center box-first">
+    <div class="wrapper bread-crumb">
+      <div class="center">
+        <div class="bread-crumb">
+          <ul>
+            <li><a href="/inicio.html">::before</a>::after</li>
+            <li class="last">Consultas y Sugerencias</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- CONTENIDO -->
+<div class="content caja2">
+  <div class="menu-inst"></div>
+  <div class="title">
+    <h2 class="postition__h2">Consultas y Sugerencias</h2>
+  </div>
+  <div class="content-wrapper">
+    <div class="contact-section-toggle-wrapper mobile">
+    </div>
+    <div class="suggestions-form-wrapper">
+    <div class="contact-title">
+      <h3>
+        <span class="font-icn identify">
+          <i class="fas fa-user"></i>
+        </span>Contáctanos
+      </h3>
+    </div>
+    <p class="description">Tu opinión es muy importante para nosotros.</p>
+    <p class="required-field">(*) Datos Obligatorios</p>
+    <form id="contact-suggestions" class="contact-form" method="post" novalidate="novalidate">
+      <div class="input-wrapper input-wrapper--contactwith full-width radio">
+        <span class="label-text">Quieres contactarte con:</span>
+        <input type="radio" id="site" value="Susan.pe" name="contactwith" checked="checked">
+        <label for="site">
+          <span>
+
+          </span>
+          "Susan.pe"
+        </label>
+        <input type="radio" id="store" value="Tienda" name="contactwith">
+        <label for="store">
+          <span>
+          </span>
+          "Tienda."
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--inquiryselect full-width clear">
+        <label>
+          <span class="label-text">Motivo de contacto*</span>
+          <select name="inquiryselect" id="inquiryselect" tabindex="-1" class="select2-hidden-accesible" aria-hidden="true">
+            <option></option>
+            <option value="Sugerencia">Sugerencia</option>
+            <option value="Consulta">consulta</option>
+            <option value="Felicitaciones">Felicitaciones</option>
+          </select>
+          <span class="select2 select2-container select2-container--contact-form-select" dir="ltr" style="width: 300px;">
+            <span class="selection">
+              <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-inquiryselect-container">
+                <span class="select2-selection__rendered" id="select2-inquiryselect-container">
+                  <span class="select2-selection__placeholder">Seleccione un motivo</span>
+                </span>
+                <span class="select2-selection__arrow" role="presentation">
+                  ::before
+                  <b role="presentation"></b>
+                </span>
+              </span>
+            </span>
+            <span class="dropdown-wrapper" aria-hidden="true"></span>
+          </span>
+        </label>
+        <span class="select2-container"></span>
+      </div>
+      <div class="input-wrapper input-wrapper--districtselect full-width clear" style="display: block;">
+        <label>
+          <span class="label-text">Elija su distrito de despacho</span>
+          <select name="searchdistrict" id="searchdistrict" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+            <optgroup label="Lima > Lima" date-select2-id="0">
+              <option value="150101" data-select2-id="150101">Lima</option>
+              <option value="150102" data-select2-id="150102">Ancon</option>
+              <option value="150103" data-select2-id="150103">Barranco</option>
+              <option value="150104" data-select2-id="150104">Breña</option>
+              <option value="150105" data-select2-id="150105">Chorrillos</option>
+            </optgroup>
+            <optgroup label="Lima > Barranca" date-select2-id="1">
+              <option value="150201" data-select2-id="150201">Barranca</option>
+              <option value="150202" data-select2-id="150202">Paramonga</option>
+              <option value="150203" data-select2-id="150203">Pativilca</option>
+              <option value="150204" data-select2-id="150204">Supe</option>
+              <option value="150205" data-select2-id="150205">Supe Puerto</option>
+            </optgroup>
+            <optgroup label="Lima > Callao" date-select2-id="2">
+              <option value="070102" data-select2-id="070102">Bellavista</option>
+              <option value="070101" data-select2-id="070101">Callao</option>
+              <option value="070103" data-select2-id="070103">La Perla</option>
+              <option value="070104" data-select2-id="070104">La Punta</option>
+              <option value="070105" data-select2-id="070105">Mi Peru</option>
+            </optgroup>
+            <optgroup label="Lima > Cañete" date-select2-id="3">
+              <option value="150501" data-select2-id="150501">San Vicente De Cañete</option>
+              <option value="150502" data-select2-id="150502">Asia</option>
+              <option value="150503" data-select2-id="150503">Calango</option>
+              <option value="150504" data-select2-id="150504">Cerro Azul</option>
+              <option value="150505" data-select2-id="150505">Imperial</option>
+            </optgroup>
+            <optgroup label="Lima > Huara" date-select2-id="4">
+              <option value="150801" data-select2-id="150801">Ambar</option>
+              <option value="150802" data-select2-id="150802">Caleta De Carquin</option>
+              <option value="150803" data-select2-id="150803">Checras</option>
+              <option value="150804" data-select2-id="150804">Huacho</option>
+              <option value="150805" data-select2-id="150805">Huaura</option>
+            </optgroup>
+          </select>
+          <span class="select2 select2-container select2-container--contact-form-select" dir="ltr" style="width: 300px;">
+            <span class="selection">
+              <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-searchdistrict-container"></span>
+              <span class="select2-selection__rendered" id="select2-searchdistric-container">
+                <span class="select2-selection__placeholder">Busque y seleccione su distrito</span>
+              </span>
+              <span class="select-selection__arrow" role="presentation">
+                ::before
+                <b role="presentation"></b>
+              </span>
+            </span>
+            <span class="dropdown-wrapper" aria-hidden="true"></span>
+          </span>
+        </label>
+        <span class="select2-container"></span>
+      </div>
+      <div class="input-wrapper input-wrapper--ordernumber clear" style="display: block;">
+        <label>
+          <span class="label-text">Número de Pedido</span>
+          <input type="text" name="ordernumber" id="ordernumber" placeholder="Cd______">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper"></div>
+      <div class="input-wrapper input-wrapper--firstname clear">
+        <label>
+          <span class="label-text">Nombres*</span>
+          <input type="text" name="firstname" id="firstname">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--lastname">
+        <label>
+          <span class="label-text">Apellidos*</span>
+          <input type="text" name="lastname" id="lastname">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--idselect">
+        <label>
+          <span class="label-text">Tipo de Documento*</span>
+          <select name="idselect" id="idselect" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+            <option value="DNI">DNI</option>
+            <option value="Pasaporte">Pasaporte</option>
+            <option value="Carnet">Carnet</option>
+            <option value="RUC">RUC</option>
+          </select>
+          <span class="select2 select2-container select2-container--contact-form-select" dir="ltr" style="width: 300px;">
+            <span class="selection">
+              <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-idselect-container">
+                <span class="select2-selection__rendered" id="select2-idselect-container" title="DNI">DNI</span>
+                <span class="select2-selection__arrow" role="presentation">
+                  ::before
+                  <b role="presentation"></b>
+                </span>
+              </span>
+            </span>
+            <span class="dropdown-wrapper" aria-hidden="true"></span>
+          </span>
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--identification">
+        <label>
+          <span class="label-text">Documento*</span>
+          <input type="text" name="identification" id="identification" maxlength="8">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--email full-width">
+        <label>
+          <span class="label-text">Correo electronico*</span>
+            <input type="email" name="contactemail" id="contactemail">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper"></div>
+      <div class="input-wrapper input-wrapper--phone">
+        <label>
+          <span class="label-text">Teléfono*</span>
+            <input type="tel" name="phone" id="phone">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--cellphone">
+        <label>
+          <span class="label-text">Celular*</span>
+            <input type="tel" name="cellphone" id="cellphone" maxlength="9">
+        </label>
+      </div>
+      <div class="input-wrapper input-wrapper--message full-width clear">
+        <label>
+          <span class="label-text">Comentarios*</span>
+            <textarea name="message" id="message"></textarea>
+        </label>
+      </div>
+      <div class="human-check clear">
+        <div class="input-wrapper">
+          <label class="label-text" for="human-input">Escribe las letras del recuadro*</label>
+          <div class="code" id="code">KyFaSj9K</div>
+          <input type="text" name="humaninput" id="humaninput" maxlength="8">
+        </div>
+        <div class="check-politics">
+          <input type="checkbox" name="chec" id="chec">
+          <label for="chec">
+            "He leido y acepto la"
+            <a href="#" target="_blank">Politica de Privacidad y Seguridad y la Política de Cookies</a>
+          </label>
+        </div>
+      </div>
+      <input type="submit" class="button submit clear" value="Enviar" disabled="disabled">
+    </form>
+    <div class="message-success">
+      <div class="box">
+        <span class="font-icn form-brillos"></span>
+        <h3>¡Listo!</h3>
+        <p>Seguiremos mejorando nuestro servicio en beneficio de nuestros clientes.</p>
+        <button class="button">
+          <a href="inicio.html">VOLVER A LA PÁGINA PRINCIPAL</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="main-footer">
+    <div class="footer__section">
+      <h2 class="footer__title">Sobre Nosotros</h2>
+      <p class="footer__txt">"Somos una empresa que nos dedicamos a comercializar productos de vestimentas de niños, niñas, señoritas jóvenes en general, para el uso comercial he industrial, así como la importación de productos variados que se encuentran en nuestros establecimientos."</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Direccion :</h2>
+      <p class="footer__txt">BAJO HUAYNABE - CRUCE - RIO UCHIZA Tocache Nuevo, Perú</p>
+      <h2 class="footer__title">Contacto</h2>
+      <p class="footer__txt">Cell : +51 992-063-840</p>
+      <p class="footer__txt">Email : susan.18694@gmail.com</p>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Enlaces Rapidos</h2>
+      <a href="inicio.html" class="footer__link">Inicio</a>
+      <a href="nosotros.html" class="footer__link">Nosotros</a>
+      <a href="tienda.html" class="footer__link">Tienda</a>
+      <a href="contacto.html" class="footer__link">Contacto</a>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Sign up for your offers</h2>
+      <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from. <a href="contacto.html" class="footer__txt">"Click"</a></p>
+      <input type="email" class="footer__input footer__texto" placeholder="Enter your email">
+    </div>
+
+</footer>
+<div class="container-footer">
+    <div class="copyright">Copyright © 2022 | Todos los derechos de autor reservados by | <a href="">Boutique Novedades Susan</a>
+    </div>
+</div>
+
+<script src="js/carrito.js"></script>
+<script src="js/pedido.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
